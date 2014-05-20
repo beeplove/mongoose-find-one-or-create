@@ -22,6 +22,7 @@
   "homepage": "https://github.com/beeplove/mongoose-find-one-or-create",
   "devDependencies": {
     "grunt-cli": "^0.1.13",
-    "grunt-mocha-test": "^0.10.2"
+    "grunt-mocha-test": "^0.10.2",
+    "should": "^3.3.1"
   }
 }
