@@ -1,10 +1,10 @@
 {
   "name": "mongoose-find-one-or-create",
-  "version": "0.1.0",
-  "description": "Plugin to add static method findOneOrCreate to a mongoose schema",
+  "version": "0.2.0",
+  "description": "Mongoose plugin to add static method findOneOrCreate to a schema",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/grunt-cli/bin/grunt mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/beeplove/mongoose-find-one-or-create/issues"
   },
-  "homepage": "https://github.com/beeplove/mongoose-find-one-or-create"
+  "homepage": "https://github.com/beeplove/mongoose-find-one-or-create",
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-mocha-test": "^0.10.2",
+    "mongoose": "^3.8.9",
+    "should": "^3.3.1"
+  }
 }
