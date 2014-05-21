@@ -16,5 +16,6 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('mocha', 'mochaTest');
-    grunt.registerTask('default', 'mocha');
+    grunt.registerTask('default', 'mochaTest');
+    grunt.registerTask('test', 'mochaTest');
 }
